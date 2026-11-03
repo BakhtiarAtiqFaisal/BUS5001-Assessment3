@@ -1,0 +1,10 @@
+{
+  "issue_category": "Water and facilities",
+  "urgency": "HIGH",
+  "sentiment": "NEUTRAL",
+  "followup_required": "Y",
+  "recommended_team": "Facilities Management",
+  "escalation_reason": "Ongoing water leak requires prompt repair to prevent significant water loss and property damage.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "A water leak has been running all morning in Building C."
+}

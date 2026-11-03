@@ -1,0 +1,37 @@
+BUS5001 Assessment 3 — Q3: ESG message triage experiment log
+Date: 3 November 2026
+
+Method:
+LLM: Google AI Studio, Gemini 3.8 Flash (model name as shown in user screenshots).
+LLM output: Eight required fields, as the model returned them, saved to separate TXT files.
+Baseline: Hugging Face Spaces public zero-shot classification demo (datasciencedojo/Zero-Shot-Text-Classification). The underlying model version was not independently verified; do not label it as BART without checking the Space configuration.
+Candidate labels (unchanged for every zero-shot run):
+Water and facilities; Waste and recycling; Energy efficiency; Sustainable procurement; Accessibility and inclusion; Governance and ethics.
+
+T01: There is a water leak in Building C that has been running all morning.
+Reference label: Water and facilities
+Gemini predicted category: Water and facilities
+Gemini urgency: HIGH; sentiment: NEUTRAL; followup: Y; recommended team: Facilities Management
+Zero-shot top category: Water and facilities (86% displayed score)
+Comparison: Same category.
+Observation: Gemini's reference to potential property damage is a plausible consequence, but not explicitly reported.
+
+T02: I want to report that one of our suppliers may not meet our sustainability policy.
+Reference label: Sustainable procurement
+Gemini predicted category: Sustainable procurement
+Gemini urgency: MEDIUM; sentiment: NEUTRAL; followup: Y; recommended team: Sustainable Procurement
+Zero-shot top category: Sustainable procurement (64%); runner-up Governance and ethics (19%)
+Comparison: Same category.
+Observation: The supplier concern overlaps with governance; allegation is unverified. Model correctly describes it as requiring investigation.
+
+T03: The accessible entrance near the main building has been blocked for two days.
+Reference label: Accessibility and inclusion
+Gemini predicted category: Accessibility and inclusion
+Gemini urgency: HIGH; sentiment: NEUTRAL; followup: Y; recommended team: Facilities Management
+Zero-shot top category: Accessibility and inclusion (86%); runner-up Water and facilities (7%)
+Comparison: Same category.
+Observation: HIGH prioritisation follows the prompt rule for obstructed accessibility. A human still needs to assess location-specific safety impact.
+
+Summary: Category agreement 3/3 (100% on these examples only). This is not an independent benchmark of overall model accuracy; the test set is small and lacks ambiguous or adversarial examples. Zero-shot scores are relative classification scores, not calibrated reliability or urgency probabilities. Zero-shot baseline did not produce other fields, so urgency and routing were not compared to it.
+
+Evidence: Screenshots are the ORIGINAL screenshots supplied by the student; JSON text files reflect the actual Gemini responses provided by the student. No new model calls were performed in preparing this package.

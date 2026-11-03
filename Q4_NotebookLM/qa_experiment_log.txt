@@ -1,0 +1,16 @@
+BUS5001 ASSESSMENT 3 — Q4 NOTEBOOKLM EXPERIMENT LOG
+Notebook: BUS5001 – AI Academic Study Assistant
+Scenario: Academic study support using real BUS5001 Cloud Platforms and Analytics lecture and Dialogflow CX workshop PDFs.
+Selected sources shown in T02 screenshot: BUS5001-Wk10-ConversationalAgents.pdf, DialogFlow CX I.pdf, DialogFlow CX II.pdf.
+
+T01 — SOURCE-GROUNDED Q&A
+Prompt: Using only the uploaded BUS5001 lecture and Dialogflow CX workshop materials, explain the differences between intents, entities, page parameters and routes in Dialogflow CX. Provide a practical example from the restaurant assistant workshop for each concept. Include citations to the source documents.
+Observed: NotebookLM explained intents, entities, page parameters and routes and displayed citations in its response. The captured screenshot shows a partial answer and source material; full per-citation verification not yet performed.
+Evidence: Q4_T01_Source_Grounded_QA_Original.png
+
+T02 — UNSUPPORTED INFORMATION
+Prompt: Based on the uploaded Dialogflow CX workshop documents, what are the exact opening and closing hours of Morning Delight Café?
+Observed: NotebookLM stated the exact opening and closing hours were not specified in the uploaded materials, referred to the workshop's instructions to treat these hours as unknown, and displayed citation markers. The answer did not invent opening or closing times. This agrees with the workshop source's statement that the menu does not specify opening hours.
+Preliminary outcome: PASS for unsupported-information handling; manual verification of individual citations pending.
+Limitations/observations: Response was more verbose than needed; a small, prompted test cannot establish general hallucination resistance. Need to click source citations to check the specific passages.
+Evidence: Q4_T02_Unsupported_Opening_Hours_Original.png

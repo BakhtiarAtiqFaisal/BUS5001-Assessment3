@@ -1,0 +1,10 @@
+{
+  "issue_category": "Accessibility and inclusion",
+  "urgency": "HIGH",
+  "sentiment": "NEUTRAL",
+  "followup_required": "Y",
+  "recommended_team": "Facilities Management",
+  "escalation_reason": "An accessible entrance has been blocked for two days, obstructing access and requiring immediate resolution.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "The accessible entrance near the main building has been reported as blocked for two days."
+}

@@ -1,0 +1,10 @@
+{
+  "issue_category": "Sustainable procurement",
+  "urgency": "MEDIUM",
+  "sentiment": "NEUTRAL",
+  "followup_required": "Y",
+  "recommended_team": "Sustainable Procurement",
+  "escalation_reason": "Investigation is required into an unverified report of supplier non-compliance with sustainability policy.",
+  "data_sensitivity_risk": "LOW",
+  "brief_summary": "An employee reports that a supplier may not be complying with the sustainability policy."
+}

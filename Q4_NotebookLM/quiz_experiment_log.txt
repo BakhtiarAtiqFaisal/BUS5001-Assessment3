@@ -1,0 +1,8 @@
+BUS5001 Assessment 3 Q4-T05: NotebookLM Quiz evidence
+Date: 2026-11-03
+Notebook: BUS5001 – AI Academic Study Assistant
+Sources: Seven selected BUS5001 lecture PDFs
+Question 1 (1/6): Which cloud service model allows control over OS, virtual server configuration, and underlying software stack? Correct answer shown: D. Infrastructure as a Service (IaaS).
+Question 2 (2/6): Key operational advantage of containerisation over traditional virtual servers? Correct answer shown: D. Higher resource utilisation by operating at OS level, reducing CPU, memory and storage footprint.
+Question 3 (3/6): Migration strategy for rapid lift-and-shift with no architectural changes? Correct answer shown: C. Rehost.
+Original screenshots are stored alongside this log. The screenshots show NotebookLM marking selected answers as correct. Evaluation should assess accuracy against source slides, not infer general accuracy from these three items.
